@@ -31,7 +31,6 @@ for key, value in new_dict.items():
     if value == 1:
         unique_things.append(key)
 print(f'Уникальны вещи, есть только у одного друга {unique_things}')
-print(new_dict)
 
 absent_things = []
 absent_friends = dict()
